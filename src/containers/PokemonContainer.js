@@ -23,15 +23,15 @@ const PokemonContainer = () => {
                 <h1>Pok&eacute;Dex</h1>
                 {/* {pokemon.map((singlePokemon => <p>{singlePokemon.name}</p>))} */}
                 <ul className="nav-bar">
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/generation-II">Generation II</Link></li>
-                    <li><Link to="/generation-III">Generation III</Link></li>
-                    <li><Link to="/generation-IV">Generation IV</Link></li>
-                    <li><Link to="/generation-V">Generation V</Link></li>
-                    <li><Link to="/generation-VI">Generation VI</Link></li>
-                    <li><Link to="/generation-VII">Generation VII</Link></li>
-                    <li><Link to="/generation-VIII">Generation VIII</Link></li>
-                    <li><Link to="/whos-that-pokemon">Who's That Pok&eacute;mon?</Link></li>
+                    <li><Link style={{textDecoration: 'none', color: 'inherit'}} className="link" to="/">Generation I</Link></li>
+                    <li><Link style={{textDecoration: 'none', color: 'inherit'}} className="link" to="/generation-II">Generation II</Link></li>
+                    <li><Link style={{textDecoration: 'none', color: 'inherit'}} className="link" to="/generation-III">Generation III</Link></li>
+                    <li><Link style={{textDecoration: 'none', color: 'inherit'}} className="link" to="/generation-IV">Generation IV</Link></li>
+                    <li><Link style={{textDecoration: 'none', color: 'inherit'}} className="link" to="/generation-V">Generation V</Link></li>
+                    <li><Link style={{textDecoration: 'none', color: 'inherit'}} className="link" to="/generation-VI">Generation VI</Link></li>
+                    <li><Link style={{textDecoration: 'none', color: 'inherit'}} className="link" to="/generation-VII">Generation VII</Link></li>
+                    <li><Link style={{textDecoration: 'none', color: 'inherit'}} className="link" to="/generation-VIII">Generation VIII</Link></li>
+                    <li><Link style={{textDecoration: 'none', color: 'inherit'}} className="link" to="/whos-that-pokemon">Who's That Pok&eacute;mon?</Link></li>
 
                 </ul>
             </div>

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import logo from '../logo.png'
 
 const WhosThatContainer = () => {
     
@@ -56,7 +57,7 @@ const WhosThatContainer = () => {
     
     return (  
         <div className="whosThat">
-            <img id="logo" src="/logo.png" alt="Logo for Who's That Pokemon"/>
+            <img id="logo" src={logo} alt="Logo for Who's That Pokemon"/>
             <button id="generate" onClick={handleClick}></button>
             <img id="pokemon-image" src={`${imageSrc}`} className={(correct ? "" : "imgFalse")} />
             <form onSubmit={handleSubmit}>
